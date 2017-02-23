@@ -23,7 +23,7 @@ Example:
       // you can return FALSE to prevent this eval()
       return false;
       // or you can return a string to replace $code for executing
-      return 'echo 2';
+      return 'echo 2;';
       // or you can return nothing to executing $code next
     }
     
